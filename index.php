@@ -3,45 +3,59 @@
 // Premiere ligne
 $a = 50;
 $b = 10;
+$color = "black";
 
-       >    {
-    echo "Hello World!";
+
+echo "ligne 1<br>";
+     if( $a > $b  ) {
+    echo "Hello World! <br><br>";
 }
 
 //Deuxieme ligne
+echo "ligne 2<br>";
+if( $a !== $b)
     {
-    echo "<br><br>Hello World2";
+    echo "Hello World2<br><br>";
 }
 
 //Troisieme ligne
-($a==b) {
-    echo "<br><br>Oui";
+echo "ligne 3<br>";
+if($a === $b) {
+    echo "Oui<br>";
 }
-
+else
 {
-    echo "<br><br>Non";
+    echo "Non<br>";
 }
 
 
 //Quatrieme ligne
-echo"<br><br>";
- ($a == $b) {
+
+echo "<br>ligne 4<br>";
+ if($a == $b) {
     echo "1";
-}  ($a > $b) {
-    echo "2";
 }
+ elseif($a > $b) {
+    echo "2<br>";
+}
+ else
 {
-    echo "3";
+    echo "3<br>";
 }
 
 
 //Cinquieme ligne
-echo"<br><br>";
 
- ($color) {
-    "red":
-    echo "Hello";
-   "green":
-    echo "Welcome";
+echo "<br>ligne 5<br>";
+
+switch($color) {
+    case "red":
+        echo "Hello red";
+        break;
+    case "green":
+        echo "Welcome";
+        break;
+    default:
+        echo "on verras plus tard !!";
 }
 
